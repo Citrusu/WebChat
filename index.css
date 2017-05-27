@@ -1,0 +1,75 @@
+
+.msg-box{
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    overflow-y: scroll;
+    padding: .5rem;
+}
+.msg-tip{
+    text-align: center;
+}
+.msg-tip > span{
+    text-align: center;
+    background-color: rgba(61, 65, 69, 0.5);
+    color: rgba(251, 251, 251, .9);
+    display: inline-block;
+    margin: 0.3rem auto;
+    font-size: .6rem;
+    border-radius: .3rem;
+    padding: 0.1rem .2rem;
+    vertical-align: middle;
+    max-width: 70%;
+}
+.msg-box .msg-item{
+    display: block;
+    margin: .1rem 0;
+}
+.msg-name{
+    color: #999;
+    font-size: .6rem;
+}
+.msg-content{
+    display: inline-block;
+    padding: 3px 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+.msg-box .left{
+    text-align: left;
+}
+.msg-box .my-msg{
+    text-align: right;
+    margin: 0.3rem 0;
+}
+.my-msg .msg-content{
+    background-color: #78a2d6;
+    color: #fff;
+    border: none;
+    text-align: left;
+}
+.msg-input{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    bottom: 0;
+}
+.msg-input textarea{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: .3rem;
+}
+.btn-submit{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 0;
+    font-size: .8rem;
+    padding: .2rem 1rem;
+}
