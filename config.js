@@ -3,8 +3,8 @@
  */
 //配置
 window.winConfig = {
-    url: 'ws://192.168.9.126:3000/server',
-    //url: 'ws://chat.hicitrus.com:3000/websocket/server',
+    // url: 'ws://192.168.9.126:3000/server',
+    url: 'ws://chat.zyou.top/server',
     port: '3000',
 };
 
