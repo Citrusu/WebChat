@@ -3,8 +3,8 @@
  */
 //配置
 window.winConfig = {
-    // url: 'ws://192.168.9.126:3000/server',
-    url: 'ws://chat.zyou.top:3000/server',
+    url: 'ws://localhost:3000/server',
+    // url: 'ws://chat.zyou.top:3000/server',
     port: '3000',
 };
 
